@@ -1,0 +1,32 @@
+.img-logo {
+    padding: 0;
+}
+
+.img-logo img {
+    width: 100px;
+    max-height: 75px;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    font-size: 30px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar ul li a + ul li a{
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+/* .navbar ul li a + ul li a:hover {
+    padding-left: 15px;
+} */
+
+@media (max-width:991px) {
+    .dropdown-menu {
+        width: fit-content;
+    }
+}

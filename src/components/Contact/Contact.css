@@ -1,0 +1,20 @@
+.contact {
+    /* background-color: #2c4755; */
+    background-color: #1c2331;
+    color: white;
+}
+
+.contact .social-media {
+    background-color: #6351ce;
+}
+
+hr {
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px
+}
+
+.contact a {
+    text-decoration: none;
+    transition: 0.4s;
+}
