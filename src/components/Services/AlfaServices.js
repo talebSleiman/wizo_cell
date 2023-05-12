@@ -1,15 +1,23 @@
 import Product from "./Product";
 import MainTitle from "./MainTitle";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchProducts } from "../../rtk/slices/products-slice";
 
-export default function AlfaServices(props) {
+export default function AlfaServices() {
 
-    const data = props.data;
+    const products = useSelector((state) => state.products);
+    const dispatch = useDispatch();
 
-    const rechargeCards = data.filter((el) => el.category === "Recharge Cards");
-    const rechargeDays = data.filter((el) => el.category === "Recharge Days");
-    const alfaGift = data.filter((el) => el.category === "Alfa Gift");
-    const weeklyData = data.filter((el) => el.category === "Weekly Data");
-    const alfaUshare = data.filter((el) => el.category === "Alfa Ushare");
+    useEffect(() => {
+        dispatch(fetchProducts());
+    }, [])
+
+    const rechargeCards = products.filter((el) => el.category === "Recharge Cards" && el.type === "Alfa");
+    const rechargeDays = products.filter((el) => el.category === "Recharge Days" && el.type === "Alfa");
+    const alfaGift = products.filter((el) => el.category === "Alfa Gift" && el.type === "Alfa");
+    const weeklyData = products.filter((el) => el.category === "Weekly Data" && el.type === "Alfa");
+    const alfaUshare = products.filter((el) => el.category === "Alfa Ushare" && el.type === "Alfa");
 
     return (
         <div className="alfa-services text-center pt-5" id="alfa-services">
@@ -22,8 +30,7 @@ export default function AlfaServices(props) {
                     <div className="row justify-content-center">
                         {rechargeCards.map((card) => {
                             return <Product product={card} key={card.id} />
-                        }
-                        )}
+                        })}
                     </div>
                 </div>
                 <div className="alfa-recharge-days" id="alfa-recharge-days">
@@ -31,8 +38,7 @@ export default function AlfaServices(props) {
                     <div className="row justify-content-center">
                         {rechargeDays.map((card) => {
                             return <Product product={card} key={card.id} />
-                        }
-                        )}
+                        })}
                     </div>
                 </div>
                 <div className="alfa-gift" id="alfa-gift">
@@ -40,8 +46,7 @@ export default function AlfaServices(props) {
                     <div className="row justify-content-center">
                         {alfaGift.map((card) => {
                             return <Product product={card} key={card.id} />
-                        }
-                        )}
+                        })}
                     </div>
                 </div>
                 <div className="weekly-data" id="weekly-data">
@@ -49,8 +54,7 @@ export default function AlfaServices(props) {
                     <div className="row justify-content-center">
                         {weeklyData.map((card) => {
                             return <Product product={card} key={card.id} />
-                        }
-                        )}
+                        })}
                     </div>
                 </div>
                 <div className="ushare" id="ushare">
@@ -58,8 +62,7 @@ export default function AlfaServices(props) {
                     <div className="row justify-content-center">
                         {alfaUshare.map((card) => {
                             return <Product product={card} key={card.id} />
-                        }
-                        )}
+                        })}
                     </div>
                 </div>
             </div>

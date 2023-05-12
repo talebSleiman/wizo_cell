@@ -1,6 +1,10 @@
+import { useSelector } from 'react-redux';
 import './Navbar.css';
 
 export default function Navbar() {
+
+    const cartLeng = useSelector(state => state.cart);
+
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container">
@@ -22,7 +26,7 @@ export default function Navbar() {
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Alfa Services
                             </a>
-                            <ul className="dropdown-menu text-center ms-auto me-auto">
+                            <ul className="dropdown-menu text-center">
                                 <li><a className="dropdown-item" href="#alfa-recharge-cards">Recharge Cards</a></li>
                                 <li><a className="dropdown-item" href="#alfa-recharge-days">Recharge Days</a></li>
                                 <li><a className="dropdown-item" href="#alfa-gift">Alfa Gift(30 days)</a></li>
@@ -35,7 +39,7 @@ export default function Navbar() {
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Touch Services
                             </a>
-                            <ul className="dropdown-menu text-center ms-auto me-auto">
+                            <ul className="dropdown-menu text-center">
                                 <li><a className="dropdown-item" href="#touch-recharge-cards">Recharge Cards</a></li>
                                 <li><a className="dropdown-item" href="#touch-recharge-days">Recharge Days</a></li>
                             </ul>
@@ -46,6 +50,12 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="#contact">Contact</a>
                         </li>
+                        {/* <button type="button" class="btn btn-primary position-relative">
+                            Cart
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-notification bg-danger">
+                                {cartLeng.length}
+                            </span>
+                        </button> */}
                     </ul>
                 </div>
             </div>

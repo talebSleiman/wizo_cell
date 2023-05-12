@@ -8,6 +8,12 @@
     background-color: #6351ce;
 }
 
+@media (max-width:767px) {
+    .contact .social-media {
+        flex-direction: column;
+    }
+}
+
 hr {
     width: 60px;
     background-color: #7c4dff;

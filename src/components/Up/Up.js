@@ -1,19 +1,31 @@
+import { useState, useEffect } from 'react';
 import './Up.css';
 
 export default function Up() {
 
-    const scrollUp = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    };
+    const [showButton, setShowButton] = useState(false);
 
-    const scroll = () => {
-        this.scrollY >= 500 ? this.classList.add("show") : this.classList.remove("show");
-    };
+    useEffect(() => {
+        function handleScroll() {
+            if (window.scrollY > 500) {
+                setShowButton(true);
+            } else {
+                setShowButton(false);
+            }
+        }
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
-    return (
-        <span className="up" onClick={scrollUp} onScroll={scroll}>Up</span>
-    );
+    if (showButton) {
+        return (
+            <button className="btn btn-primary up show" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}> Up</button>
+        );
+    } else {
+        return (
+            <button className="btn btn-primary up" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}> Up</button>
+        );
+    }
 }
