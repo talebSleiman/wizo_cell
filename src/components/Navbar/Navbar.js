@@ -1,9 +1,9 @@
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 import './Navbar.css';
 
 export default function Navbar() {
 
-    const cartLeng = useSelector(state => state.cart);
+    // const cartLeng = useSelector(state => state.cart);
 
     return (
         <nav className="navbar navbar-expand-lg">

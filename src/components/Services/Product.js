@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { useDispatch } from "react-redux";
-import { addToCart } from "../../rtk/slices/cart-slice";
+// import { useDispatch } from "react-redux";
+// import { addToCart } from "../../rtk/slices/cart-slice";
 
 export default function Product(props) {
 
     const product = props.product;
     const [count, setCount] = useState(1);
 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     function increase() {
         setCount(count + 1);
