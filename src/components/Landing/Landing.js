@@ -13,7 +13,7 @@ export default function Landing() {
                     <button>SHOP NOW</button>
                 </div>
                 <div className='figure'>
-                    <img src='./imgs/hand.png' alt='hand' />
+                    <img src='./imgs/hand.png' loading='lazy' alt='hand' />
                 </div>
             </div>
         </div>

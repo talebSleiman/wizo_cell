@@ -18,7 +18,7 @@ export default function Product(props) {
     return (
         <div className="col-sm-6 col-md-4 col-lg-3 g-5">
             <div className="card">
-                <img src={product.img_url} className="card-img-top" alt="" />
+                <img src={product.img_url} loading="lazy" className="card-img-top" alt="" />
                 <div className="card-body">
                     {title}
                 </div>

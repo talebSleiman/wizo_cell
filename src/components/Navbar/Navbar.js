@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg py-2">
             <div className="container">
                 <a className="navbar-brand img-logo" href="/">
-                    <img src="./imgs/logo.jpeg" alt="logo" />
+                    <img src="./imgs/logo.jpeg" loading='lazy' alt="logo" />
                 </a>
                 <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
