@@ -24,3 +24,21 @@ hr {
     text-decoration: none;
     transition: 0.4s;
 }
+
+.contact h4 {
+    color: #ffffff;
+    position: relative;
+    /* width: fit-content; */
+}
+
+.contact h4::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* color: #d9d9d9; */
+    width: calc(100% - 10px);
+    height: 3px;
+    background-image: linear-gradient(to right, #6FBECA, #D8736C);
+}

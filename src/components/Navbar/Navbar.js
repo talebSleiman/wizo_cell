@@ -1,9 +1,10 @@
-// import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom'
 import './Navbar.css';
 
 export default function Navbar() {
 
-    // const cartLeng = useSelector(state => state.cart);
+    const cartLeng = useSelector(state => state.cart);
 
     return (
         <nav className="navbar navbar-expand-lg py-2">
@@ -54,12 +55,14 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#contact">Contact</a>
                             </li>
-                            {/* <button type="button" class="btn btn-primary position-relative">
-                            Cart
-                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-notification bg-danger">
-                                {cartLeng.length}
-                            </span>
-                        </button> */}
+                            <Link to="/cart">
+                                <button type="button" className="btn btn-primary position-relative">
+                                    Cart
+                                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-notification bg-danger">
+                                        {cartLeng.length}
+                                    </span>
+                                </button>
+                            </Link>
                         </ul>
                     </div>
                 </div>
