@@ -20,7 +20,7 @@ export default function AlfaServices() {
     const alfaUshare = products.filter((el) => el.category === "Alfa Ushare" && el.type === "Alfa");
 
     return (
-        <div className="alfa-services text-center pt-5" id="alfa-services">
+        <div className="alfa-services text-center py-5" id="alfa-services">
             <div className="container">
                 <div className="main-title mt-5 mb-5 position-relative ms-auto me-auto">
                     <h2 data-text="Alfa Services">Alfa Services</h2>
@@ -29,7 +29,7 @@ export default function AlfaServices() {
                     <MainTitle name="Recharge Cards" />
                     <div className="row justify-content-center">
                         {rechargeCards.map((card) => {
-                            return <Product product={card} key={card.id} />
+                            return <Product product={card} isTouch={false} key={card.id} />
                         })}
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function AlfaServices() {
                     <MainTitle name="Recharge Days" />
                     <div className="row justify-content-center">
                         {rechargeDays.map((card) => {
-                            return <Product product={card} key={card.id} />
+                            return <Product product={card} isTouch={false} key={card.id} />
                         })}
                     </div>
                 </div>
@@ -45,7 +45,7 @@ export default function AlfaServices() {
                     <MainTitle name="Alfa Gift" />
                     <div className="row justify-content-center">
                         {alfaGift.map((card) => {
-                            return <Product product={card} key={card.id} />
+                            return <Product product={card} isTouch={false} key={card.id} />
                         })}
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export default function AlfaServices() {
                     <MainTitle name="Weekly Data" />
                     <div className="row justify-content-center">
                         {weeklyData.map((card) => {
-                            return <Product product={card} key={card.id} />
+                            return <Product product={card} isTouch={false} key={card.id} />
                         })}
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export default function AlfaServices() {
                     <MainTitle name="Alfa Ushare" />
                     <div className="row justify-content-center">
                         {alfaUshare.map((card) => {
-                            return <Product product={card} key={card.id} />
+                            return <Product product={card} isTouch={false} key={card.id} />
                         })}
                     </div>
                 </div>

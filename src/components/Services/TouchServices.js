@@ -17,7 +17,7 @@ export default function TouchServices() {
     const rechargeDays = products.filter((el) => el.category === "Recharge Days" && el.type === "Touch");
 
     return (
-        <div className="touch-services text-center pt-5 pb-5" id="touch-services">
+        <div className="touch-services text-center py-5" id="touch-services">
             <div className="container">
                 <div className="main-title mt-5 mb-5 position-relative ms-auto me-auto">
                     <h2 data-text="Touch Services">Touch Services</h2>
@@ -26,7 +26,7 @@ export default function TouchServices() {
                     <MainTitle name="Recharge Cards" />
                     <div className="row justify-content-center">
                         {rechargeCards.map((card) => {
-                            return <Product product={card} key={card.id} />
+                            return <Product product={card} isTouch={true} key={card.id} />
                         }
                         )}
                     </div>
@@ -35,7 +35,7 @@ export default function TouchServices() {
                     <MainTitle name="Recharge Days" />
                     <div className="row justify-content-center">
                         {rechargeDays.map((card) => {
-                            return <Product product={card} key={card.id} />
+                            return <Product product={card} isTouch={true} key={card.id} />
                         }
                         )}
                     </div>

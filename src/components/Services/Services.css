@@ -1,19 +1,55 @@
-.card-title {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 700;
-    font-size: 20px;
+.alfa-services {
+    background-image: url("../../../public/imgs/BG-3.png");
+    background-size: cover;
+    background-position: center center;
 }
 
-.card-text {
-    /* border: 4px solid var(--green); */
+.touch-services {
+    background-image: url("../../../public/imgs/BG-2.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 12px !important;
+    padding: 10px 5px;
+}
+
+/* .card-img-top {
+    width: 95px !important;
+    height: 65px !important;
+} */
+
+.card-title {
+    /* padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    font-size: 20px; */
+    /* line-height: 32px; */
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card-title.touch {
+    color: #3C9FAB;
+}
+
+.card-title.alfa {
+    color: #D16464;
+}
+
+
+/* .card-text {
+    border: 4px solid var(--green);
     border: 4px solid rgba(13, 110, 253, 1);
     padding: 3px 14px;
     margin-left: 10px;
     margin-right: 10px;
     font-weight: bold;
     font-size: 18px;
-}
+} */
 
 .right,
 .left {
