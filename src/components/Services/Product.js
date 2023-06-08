@@ -20,23 +20,9 @@ export default function Product(props) {
             <div className="card">
                 <img src={product.img_url} className="card-img-top" alt="" />
                 <div className="card-body">
-                    {/* <div>
-                        <i className="fa-solid fa-arrow-right fa-xl right"></i>
-                        <span className="card-title">{price}</span>
-                        <i className="fa-solid fa-arrow-left fa-xl left"></i>
-                    </div> */}
                     {title}
-                    {/* <div className="py-3">
-                        <span onClick={decrease}>
-                            <i className="fa-solid fa-minus fa-xl"></i>
-                        </span>
-                        <span className="card-text">{count}</span>
-                        <span onClick={increase}>
-                            <i className="fa-solid fa-plus fa-xl"></i>
-                        </span>
-                    </div> */}
-                    <button className="btn btn-primary" onClick={() => dispatch(addToCart({ product }))}>Add To Cart</button>
                 </div>
+                <button className="btn btn-primary" onClick={() => dispatch(addToCart({ product }))}>Add To Cart</button>
             </div>
         </div>
     );

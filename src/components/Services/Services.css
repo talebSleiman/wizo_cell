@@ -16,11 +16,6 @@
     padding: 10px 5px;
 }
 
-/* .card-img-top {
-    width: 95px !important;
-    height: 65px !important;
-} */
-
 .card-title {
     /* padding-left: 10px;
     padding-right: 10px;
@@ -50,9 +45,3 @@
     font-weight: bold;
     font-size: 18px;
 } */
-
-.right,
-.left {
-    /* color: var(--green); */
-    color: rgba(13, 110, 253, 1);
-}

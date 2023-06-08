@@ -21,3 +21,7 @@
         width: fit-content;
     }
 }
+
+.offcanvas.offcanvas-end {
+    width: 50vw !important;
+}

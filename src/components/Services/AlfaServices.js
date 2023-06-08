@@ -22,11 +22,11 @@ export default function AlfaServices() {
     return (
         <div className="alfa-services text-center py-5" id="alfa-services">
             <div className="container">
-                <div className="main-title mt-5 mb-5 position-relative ms-auto me-auto">
-                    <h2 data-text="Alfa Services">Alfa Services</h2>
+                <div className="main-title mb-5 position-relative ms-auto me-auto">
+                    <h2 className="p-2">ALFA</h2>
                 </div>
                 <div className="alfa-recharge-cards" id="alfa-recharge-cards">
-                    <MainTitle name="Recharge Cards" />
+                    <MainTitle name="CARDS" />
                     <div className="row justify-content-center">
                         {rechargeCards.map((card) => {
                             return <Product product={card} isTouch={false} key={card.id} />
@@ -34,7 +34,7 @@ export default function AlfaServices() {
                     </div>
                 </div>
                 <div className="alfa-recharge-days" id="alfa-recharge-days">
-                    <MainTitle name="Recharge Days" />
+                    <MainTitle name="DAYS" />
                     <div className="row justify-content-center">
                         {rechargeDays.map((card) => {
                             return <Product product={card} isTouch={false} key={card.id} />
@@ -42,7 +42,7 @@ export default function AlfaServices() {
                     </div>
                 </div>
                 <div className="alfa-gift" id="alfa-gift">
-                    <MainTitle name="Alfa Gift" />
+                    <MainTitle name="GIFT" />
                     <div className="row justify-content-center">
                         {alfaGift.map((card) => {
                             return <Product product={card} isTouch={false} key={card.id} />
@@ -50,7 +50,7 @@ export default function AlfaServices() {
                     </div>
                 </div>
                 <div className="weekly-data" id="weekly-data">
-                    <MainTitle name="Weekly Data" />
+                    <MainTitle name="WEEKLY" />
                     <div className="row justify-content-center">
                         {weeklyData.map((card) => {
                             return <Product product={card} isTouch={false} key={card.id} />
@@ -58,7 +58,7 @@ export default function AlfaServices() {
                     </div>
                 </div>
                 <div className="ushare" id="ushare">
-                    <MainTitle name="Alfa Ushare" />
+                    <MainTitle name="USHARE" />
                     <div className="row justify-content-center">
                         {alfaUshare.map((card) => {
                             return <Product product={card} isTouch={false} key={card.id} />

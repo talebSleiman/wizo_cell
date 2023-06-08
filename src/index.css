@@ -13,42 +13,14 @@ body {
 
 .main-title {
   width: fit-content;
+  background-color: rgba(255, 255, 255, 0.32);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
 }
 
-.main-title::after {
-  content: '';
-  width: 120px;
-  height: 2px;
-  background-color: var(--green);
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-h2,
-h3 {
-  position: relative;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-h2::before,
-h3::before {
-  content: attr(data-text);
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 0;
-  display: inline-block;
-  overflow: hidden;
-  transition: 0.5s;
-  white-space: nowrap;
-}
-
-h2:hover::before,
-h3:hover::before {
-  width: 100%;
+.main-title h3,
+.main-title h2 {
+  color: #ffffff;
 }
 
 h4 {
