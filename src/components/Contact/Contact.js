@@ -20,42 +20,40 @@ export default function Contact() {
                 <div className='row mt-3 text-md-start text-lg-center'>
                     <div className="col-sm-6 col-md-4 col-lg-4 mb-4 text-center">
                         <h4 className="text-uppercase fw-bold pb-3">Wizo Cell</h4>
-
-                        {/* <hr className="mb-4 mt-0 d-inline-block mx-auto" /> */}
                         <p className='py-2'>
-                            <a href='tel:+96171754138' className='text-white'> <i className="fa-solid fa-phone mr-3"></i> + 961 71 754 138</a>
+                            <a href='tel:+96171754138'> <i className="fa-solid fa-phone mr-3"></i> + 961 71 754 138</a>
                         </p>
                         <p>
-                            <a href='http://wa.me/96171754138' target='_blank' className='text-white' rel="noreferrer"> <i className="fa-brands fa-whatsapp mr-3"></i> + 961 71 754 138</a>
+                            <a href='http://wa.me/96171754138' target='_blank' rel="noreferrer"> <i className="fa-brands fa-whatsapp mr-3"></i> + 961 71 754 138</a>
                         </p>
                     </div>
                     <div className="col-sm-6 col-md-4 col-lg-4 mb-4 text-center">
                         <h4 className="text-uppercase fw-bold pb-3">Alfa Services</h4>
                         {/* <hr className="mb-4 mt-0 d-inline-block mx-auto" /> */}
                         <p className='py-2'>
-                            <a href="#alfa-recharge-cards" className="text-white">Recharge Cards</a>
+                            <a href="#alfa-recharge-cards">Recharge Cards</a>
                         </p>
                         <p>
-                            <a href="#alfa-recharge-days" className="text-white">Recharge Days</a>
+                            <a href="#alfa-recharge-days">Recharge Days</a>
                         </p>
                         <p className='py-2'>
-                            <a href="#alfa-gift" className="text-white">Alfa Gift</a>
+                            <a href="#alfa-gift">Alfa Gift</a>
                         </p>
                         <p>
-                            <a href="#weekly-data" className="text-white">Weekly Data</a>
+                            <a href="#weekly-data">Weekly Data</a>
                         </p>
                         <p className='py-2'>
-                            <a href="#ushare" className="text-white">Alfa Ushare</a>
+                            <a href="#ushare">Alfa Ushare</a>
                         </p>
                     </div>
                     <div className="col-sm-6 col-md-4 col-lg-4 mb-4 text-center">
                         <h4 className="text-uppercase fw-bold pb-3">Touch Services</h4>
                         {/* <hr className="mb-4 mt-0 d-inline-block mx-auto" /> */}
                         <p className='py-3'>
-                            <a href="#touch-recharge-cards" className="text-white">Recharge Cards</a>
+                            <a href="#touch-recharge-cards">Recharge Cards</a>
                         </p>
                         <p>
-                            <a href="#touch-recharge-days" className="text-white">Recharge Days</a>
+                            <a href="#touch-recharge-days">Recharge Days</a>
                         </p>
                     </div>
                     {/* <div className="col-sm-6 col-md-4 col-lg-3 mb-4">

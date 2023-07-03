@@ -4,7 +4,7 @@ import Product from "./Product";
 import { useEffect } from "react";
 import { fetchProducts } from "../../rtk/slices/products-slice";
 
-export default function TouchServices() {
+const TouchServices = () => {
 
     const products = useSelector((state) => state.products);
     const dispatch = useDispatch();
@@ -20,11 +20,11 @@ export default function TouchServices() {
         <div className="touch-services text-center py-5" id="touch-services">
             <div className="container">
                 <div className="main-title mb-5 position-relative ms-auto me-auto">
-                    <h2 className="p-2">TOUCH</h2>
+                    <h2 className="">TOUCH</h2>
                 </div>
                 <div className="touch-recharge-cards" id="touch-recharge-cards">
                     <MainTitle name="CARDS" />
-                    <div className="row justify-content-center">
+                    <div className="row justify-content-center g-5">
                         {rechargeCards.map((card) => {
                             return <Product product={card} isTouch={true} key={card.id} />
                         }
@@ -33,7 +33,7 @@ export default function TouchServices() {
                 </div>
                 <div className="touch-recharge-days" id="touch-recharge-days">
                     <MainTitle name="DAYS" />
-                    <div className="row justify-content-center">
+                    <div className="row justify-content-center g-5">
                         {rechargeDays.map((card) => {
                             return <Product product={card} isTouch={true} key={card.id} />
                         }
@@ -44,3 +44,5 @@ export default function TouchServices() {
         </div>
     );
 }
+
+export default TouchServices;

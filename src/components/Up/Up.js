@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Up.css';
 
-export default function Up() {
+const Up = () => {
 
     const [showButton, setShowButton] = useState(false);
 
@@ -38,3 +38,5 @@ export default function Up() {
         );
     }
 }
+
+export default Up;

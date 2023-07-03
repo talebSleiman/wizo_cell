@@ -4,7 +4,7 @@ import TouchServices from "./TouchServices";
 
 import './Services.css';
 
-export default function Services() {
+const Services = () => {
     return (
         <>
             <AlfaServices />
@@ -12,3 +12,5 @@ export default function Services() {
         </>
     );
 }
+
+export default Services;

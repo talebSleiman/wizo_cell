@@ -2,16 +2,16 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom'
 import './Navbar.css';
 
-export default function Navbar() {
+const Navbar = () => {
 
     const cartLeng = useSelector(state => state.cart);
 
     return (
         <nav className="navbar navbar-expand-lg py-2">
             <div className="container">
-                <a className="navbar-brand img-logo" href="/">
+                <Link className="navbar-brand img-logo" to="/">
                     <img src="./imgs/logo.jpeg" loading='lazy' alt="logo" />
-                </a>
+                </Link>
                 <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <i className="fa-solid fa-bars"></i>
@@ -24,7 +24,7 @@ export default function Navbar() {
                     <div className='offcanvas-body'>
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2 gap-lg-4">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Home</a>
+                                <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#alfa-services" role="button"
@@ -70,3 +70,5 @@ export default function Navbar() {
         </nav>
     );
 }
+
+export default Navbar;

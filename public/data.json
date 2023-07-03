@@ -2,203 +2,203 @@
     {
         "id": "1",
         "price": 3.70,
-        "img_url": "./imgs/alfa/cards/1.png",
+        "image": "./imgs/alfa/cards/1.png",
         "type": "Alfa",
         "category": "Recharge Cards"
     },
     {
         "id": "2",
         "price": 5.20,
-        "img_url": "./imgs/alfa/cards/2.png",
+        "image": "./imgs/alfa/cards/2.png",
         "type": "Alfa",
         "category": "Recharge Cards"
     },
     {
         "id": "3",
         "price": 8.66,
-        "img_url": "./imgs/alfa/cards/3.png",
+        "image": "./imgs/alfa/cards/3.png",
         "type": "Alfa",
         "category": "Recharge Cards"
     },
     {
         "id": "4",
         "price": 17.31,
-        "img_url": "./imgs/alfa/cards/4.png",
+        "image": "./imgs/alfa/cards/4.png",
         "type": "Alfa",
         "category": "Recharge Cards"
     },
     {
         "id": "5",
         "price": 2.89,
-        "img_url": "./imgs/alfa/days/month.png",
+        "image": "./imgs/alfa/days/month.png",
         "type": "Alfa",
         "category": "Recharge Days"
     },
     {
         "id": "6",
         "price": 21.92,
-        "img_url": "./imgs/alfa/days/year.png",
+        "image": "./imgs/alfa/days/year.png",
         "type": "Alfa",
         "category": "Recharge Days"
     },
     {
         "id": "7",
         "price": 3.58,
-        "img_url": "./imgs/alfa/gift/1.png",
+        "image": "./imgs/alfa/gift/1.png",
         "type": "Alfa",
         "category": "Alfa Gift"
     },
     {
         "id": "8",
         "price": 5.60,
-        "img_url": "./imgs/alfa/gift/2.png",
+        "image": "./imgs/alfa/gift/2.png",
         "type": "Alfa",
         "category": "Alfa Gift"
     },
     {
         "id": "9",
         "price": 7.62,
-        "img_url": "./imgs/alfa/gift/3.png",
+        "image": "./imgs/alfa/gift/3.png",
         "type": "Alfa",
         "category": "Alfa Gift"
     },
     {
         "id": "10",
         "price": 10.15,
-        "img_url": "./imgs/alfa/gift/4.png",
+        "image": "./imgs/alfa/gift/4.png",
         "type": "Alfa",
         "category": "Alfa Gift"
     },
     {
         "id": "11",
         "price": 13.21,
-        "img_url": "./imgs/alfa/gift/5.png",
+        "image": "./imgs/alfa/gift/5.png",
         "type": "Alfa",
         "category": "Alfa Gift"
     },
     {
         "id": "12",
         "price": 15.75,
-        "img_url": "./imgs/alfa/gift/6.png",
+        "image": "./imgs/alfa/gift/6.png",
         "type": "Alfa",
         "category": "Alfa Gift"
     },
     {
         "id": "13",
         "price": 19.79,
-        "img_url": "./imgs/alfa/gift/7.png",
+        "image": "./imgs/alfa/gift/7.png",
         "type": "Alfa",
         "category": "Alfa Gift"
     },
     {
         "id": "14",
         "price": 1.74,
-        "img_url": "./imgs/alfa/weekly/1.png",
+        "image": "./imgs/alfa/weekly/1.png",
         "type": "Alfa",
         "category": "Weekly Data"
     },
     {
         "id": "15",
         "price": 2.43,
-        "img_url": "./imgs/alfa/weekly/2.png",
+        "image": "./imgs/alfa/weekly/2.png",
         "type": "Alfa",
         "category": "Weekly Data"
     },
     {
         "id": "16",
         "price": 5.08,
-        "img_url": "./imgs/alfa/weekly/3.png",
+        "image": "./imgs/alfa/weekly/3.png",
         "type": "Alfa",
         "category": "Weekly Data"
     },
     {
         "id": "17",
         "price": 5.08,
-        "img_url": "./imgs/alfa/ushare/1.png",
+        "image": "./imgs/alfa/ushare/1.png",
         "type": "Alfa",
         "category": "Alfa Ushare"
     },
     {
         "id": "18",
         "price": 6.23,
-        "img_url": "./imgs/alfa/ushare/2.png",
+        "image": "./imgs/alfa/ushare/2.png",
         "type": "Alfa",
         "category": "Alfa Ushare"
     },
     {
         "id": "19",
         "price": 7.39,
-        "img_url": "./imgs/alfa/ushare/3.png",
+        "image": "./imgs/alfa/ushare/3.png",
         "type": "Alfa",
         "category": "Alfa Ushare"
     },
     {
         "id": "20",
         "price": 8.66,
-        "img_url": "./imgs/alfa/ushare/4.png",
+        "image": "./imgs/alfa/ushare/4.png",
         "type": "Alfa",
         "category": "Alfa Ushare"
     },
     {
         "id": "21",
         "price": 9.58,
-        "img_url": "./imgs/alfa/ushare/5.png",
+        "image": "./imgs/alfa/ushare/5.png",
         "type": "Alfa",
         "category": "Alfa Ushare"
     },
     {
         "id": "22",
         "price": 10.62,
-        "img_url": "./imgs/alfa/ushare/6.png",
+        "image": "./imgs/alfa/ushare/6.png",
         "type": "Alfa",
         "category": "Alfa Ushare"
     },
     {
         "id": "23",
         "price": 4.62,
-        "img_url": "./imgs/touch/cards/1.png",
+        "image": "./imgs/touch/cards/1.png",
         "type": "Touch",
         "category": "Recharge Cards"
     },
     {
         "id": "24",
         "price": 5.31,
-        "img_url": "./imgs/touch/cards/2.png",
+        "image": "./imgs/touch/cards/2.png",
         "type": "Touch",
         "category": "Recharge Cards"
     },
     {
         "id": "25",
         "price": 5.31,
-        "img_url": "./imgs/touch/cards/2_5.png",
+        "image": "./imgs/touch/cards/2_5.png",
         "type": "Touch",
         "category": "Recharge Cards"
     },
     {
         "id": "26",
         "price": 8.77,
-        "img_url": "./imgs/touch/cards/3.png",
+        "image": "./imgs/touch/cards/3.png",
         "type": "Touch",
         "category": "Recharge Cards"
     },
     {
         "id": "27",
         "price": 17.54,
-        "img_url": "./imgs/touch/cards/4.png",
+        "image": "./imgs/touch/cards/4.png",
         "type": "Touch",
         "category": "Recharge Cards"
     },
     {
         "id": "28",
         "price": 3,
-        "img_url": "./imgs/touch/days/month.png",
+        "image": "./imgs/touch/days/month.png",
         "type": "Touch",
         "category": "Recharge Days"
     },
     {
         "id": "29",
         "price": 23.30,
-        "img_url": "./imgs/touch/days/year.png",
+        "image": "./imgs/touch/days/year.png",
         "type": "Touch",
         "category": "Recharge Days"
     }

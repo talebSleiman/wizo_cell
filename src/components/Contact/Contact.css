@@ -23,12 +23,17 @@ hr {
 .contact a {
     text-decoration: none;
     transition: 0.4s;
+    color: rgba(255, 255, 255, 0.63);
+}
+.contact a:hover {
+    color: rgba(255, 255, 255, 0.63) !important;
 }
 
 .contact h4 {
     color: #ffffff;
     position: relative;
-    /* width: fit-content; */
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .contact h4::before {
@@ -38,7 +43,7 @@ hr {
     left: 50%;
     transform: translateX(-50%);
     /* color: #d9d9d9; */
-    width: calc(100% - 10px);
+    width: calc(100% + 40px);
     height: 3px;
     background-image: linear-gradient(to right, #6FBECA, #D8736C);
 }

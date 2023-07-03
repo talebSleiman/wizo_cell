@@ -5,11 +5,11 @@ export const cartSlice = createSlice({
     name: "cartSlice",
     reducers: {
         addToCart: (state, action) => {
-            const findProduct = state.find((product) => product.id === action.payload.product.id);
+            const findProduct = state.find((product) => product.id === action.payload.id);
             if (findProduct) {
                 findProduct.quantity = action.payload.quantity;
             } else {
-                const productClone = { ...action.payload.product, quantity: action.payload.quantity };
+                const productClone = { ...action.payload, quantity: action.payload.quantity };
                 state.push(productClone);
             }
         },

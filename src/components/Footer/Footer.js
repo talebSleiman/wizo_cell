@@ -1,6 +1,6 @@
 import './Footer.css';
 
-export default function Footer() {
+const Footer = () => {
     return (
         <footer className='p-2 text-center text-white'>
             <div className='container'>
@@ -11,3 +11,5 @@ export default function Footer() {
         </footer>
     );
 }
+
+export default Footer;
