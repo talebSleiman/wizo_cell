@@ -13,8 +13,8 @@ const TouchServices = () => {
         dispatch(fetchProducts());
     }, [])
 
-    const rechargeCards = products.filter((el) => el.category === "Recharge Cards" && el.type === "Touch");
-    const rechargeDays = products.filter((el) => el.category === "Recharge Days" && el.type === "Touch");
+    const rechargeCards = products.filter((el) => el.category === "Recharge Card" && el.type === "Touch");
+    const rechargeDays = products.filter((el) => el.category === "Recharge Day" && el.type === "Touch");
 
     return (
         <div className="touch-services text-center py-5" id="touch-services">

@@ -7,7 +7,7 @@ const Navbar = () => {
     const cartLeng = useSelector(state => state.cart);
 
     return (
-        <nav className="navbar navbar-expand-lg py-4">
+        <nav className="navbar navbar-expand-lg py-3">
             <div className="container">
                 {/* <Link className="navbar-brand img-logo" to="/">
                     <img src="./imgs/logo.jpeg" loading='lazy' alt="logo" />

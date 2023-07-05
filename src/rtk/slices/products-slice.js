@@ -3,8 +3,8 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const fetchProducts = createAsyncThunk("productsSlice/fetchProducts", async () => {
     try {
-        const res = await fetch("./data.json");
-        // const res = await fetch("https://wizo-cell.onrender.com/api/products/");
+        // const res = await fetch("./data.json");
+        const res = await fetch("https://wizo-cell.onrender.com/api/products/");
         const data = await res.json();
         return data;
     } catch (error) {

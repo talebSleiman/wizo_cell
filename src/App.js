@@ -10,7 +10,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
         <Route exact path="/" element={
           <>
@@ -18,7 +18,7 @@ function App() {
             <Landing />
             <Services />
             <Contact />
-            <Footer />
+            {/* <Footer /> */}
             <Up />
           </>
         } />

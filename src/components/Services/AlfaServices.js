@@ -13,8 +13,8 @@ const AlfaServices = () => {
         dispatch(fetchProducts());
     }, [])
 
-    const rechargeCards = products.filter((el) => el.category === "Recharge Cards" && el.type === "Alfa");
-    const rechargeDays = products.filter((el) => el.category === "Recharge Days" && el.type === "Alfa");
+    const rechargeCards = products.filter((el) => el.category === "Recharge Card" && el.type === "Alfa");
+    const rechargeDays = products.filter((el) => el.category === "Recharge Day" && el.type === "Alfa");
     const alfaGift = products.filter((el) => el.category === "Alfa Gift" && el.type === "Alfa");
     const weeklyData = products.filter((el) => el.category === "Weekly Data" && el.type === "Alfa");
     const alfaUshare = products.filter((el) => el.category === "Alfa Ushare" && el.type === "Alfa");

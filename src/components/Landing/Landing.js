@@ -2,7 +2,7 @@ import './Landing.css';
 
 const Landing = () => {
     return (
-        <div className="landing pt-5 text-center wow fadeIn" data-wow-delay="0.1s">
+        <div className="landing pt-4 text-center wow fadeIn" data-wow-delay="0.1s">
             <div className="container">
                 <div className='content animated slideInDown'>
                     <h1 className='fw-bold '>WELCOME TO OUR</h1>
@@ -12,7 +12,7 @@ const Landing = () => {
                     <p className='fw-bold'>TOP UP YOUR PHONE INSTANTLY - IT'S THAT SIMPLE!</p>
                     <button>SHOP NOW</button>
                 </div>
-                <div className='figure animated slideInLeft'>
+                <div className='figure d-none d-sm-block animated slideInLeft'>
                     <img src='./imgs/hand.png' alt='hand' />
                 </div>
             </div>

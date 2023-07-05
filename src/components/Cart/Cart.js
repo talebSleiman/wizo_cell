@@ -22,7 +22,7 @@ const Cart = () => {
             message += `${product.name} x${product.quantity}, `;
         })
         message += ` Total Price: ${totalPrice(cartProducts)}`;
-        const url = `https://api.whatsapp.com/send/?phone=96176032980&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
+        const url = `https://api.whatsapp.com/send/?phone=96171754138&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
         window.open(url, "_blank");
     }
 
@@ -31,7 +31,7 @@ const Cart = () => {
     }
 
     return (
-        <section className='vh-100' style={{ backgroundColor: '#2B2B2B' }}>
+        <section className='min-vh-100 h-100' style={{ backgroundColor: '#2B2B2B' }}>
             <div className='container position-relative wow fadeInUp' data-wow-delay="0.1s">
                 {cartProducts.length === 0 ? (<h2 className='text-center pt-5 pb-4 text-white'>You Don't have any Products in Your Cart</h2>) : (
                     <>
