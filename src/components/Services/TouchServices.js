@@ -19,12 +19,12 @@ const TouchServices = () => {
     return (
         <div className="touch-services text-center py-5" id="touch-services">
             <div className="container">
-                <div className="main-title mb-5 position-relative ms-auto me-auto">
+                <div className="main-title mb-5 position-relative ms-auto me-auto wow fadeInUp" data-wow-delay="0.1s">
                     <h2 className="">TOUCH</h2>
                 </div>
                 <div className="touch-recharge-cards" id="touch-recharge-cards">
                     <MainTitle name="CARDS" />
-                    <div className="row justify-content-center g-5">
+                    <div className="row justify-content-center g-5 wow fadeInUp" data-wow-delay="0.5s">
                         {rechargeCards.map((card) => {
                             return <Product product={card} isTouch={true} key={card.id} />
                         }
@@ -33,7 +33,7 @@ const TouchServices = () => {
                 </div>
                 <div className="touch-recharge-days" id="touch-recharge-days">
                     <MainTitle name="DAYS" />
-                    <div className="row justify-content-center g-5">
+                    <div className="row justify-content-center g-5 wow fadeInUp" data-wow-delay="0.5s">
                         {rechargeDays.map((card) => {
                             return <Product product={card} isTouch={true} key={card.id} />
                         }

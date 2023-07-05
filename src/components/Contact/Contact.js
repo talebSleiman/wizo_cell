@@ -2,7 +2,7 @@ import './Contact.css';
 
 export default function Contact() {
     return (
-        <div className='contact text-center text-lg-start py-5' id='contact'>
+        <div className='contact text-center text-lg-start py-5 wow fadeIn' data-wow-delay="0.1s" id='contact'>
             <div className='container'>
                 <div className='social-media d-flex justify-content-between p-4'>
                     <div className="me-4">

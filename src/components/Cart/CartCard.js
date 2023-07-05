@@ -28,16 +28,16 @@ const CartCard = (props) => {
 
     return (
         <div className='d-flex align-items-center py-2 my-5 position-relative' style={{ backgroundColor: "#ffffff59", borderRadius: "16px" }}>
-            <div className='px-3 pt-1 ms-3 me-5' style={{ border: '2px solid rgba(255,255,255,0.69)', borderRadius: '10px' }}>
+            <div className='px-2 px-md-3 pt-1 ms-3 me-md-5' style={{ border: '2px solid rgba(255,255,255,0.69)', borderRadius: '10px' }}>
                 <p onClick={() => addCount(product)}><i className="fa-solid fa-plus" style={{ color: "#ffffff" }}></i></p>
                 <p className='text-white'>{count}</p>
                 <p onClick={() => minusCount(product)}><i className="fa-solid fa-minus" style={{ color: "#ffffff" }}></i></p>
             </div>
-            <div className="ms-2">
+            <div className="ms-3">
                 <img src={product.image} className='card-image-top' style={{ width: '150px' }} alt='product' />
             </div>
-            <div className='ms-4 px-4'>
-                <h3 className="fw-bold text-white">{product.type}</h3>
+            <div className='ms-4 px-md-4'>
+                <h3 className="fw-bold text-white">{product.name}</h3>
                 <h4 className="fw-bold text-white">{changePriceQty(product.price, count)}</h4>
             </div>
             <span onClick={() => handleRemove(product)} className="position-absolute top-0 end-0 badge">

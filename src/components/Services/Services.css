@@ -47,6 +47,16 @@
     border-radius: 16px !important;
 }
 
+
+@media(max-width: 1200px) {
+
+    .btnAlfa,
+    .btnTouch {
+        padding: 10px 20px !important;
+    }
+}
+
+
 @media(max-width: 768px) {
     .card-title {
         padding: 10px 14px;

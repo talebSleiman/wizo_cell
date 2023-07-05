@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "name": "Alfa 3.03$",
         "price": 3.70,
         "image": "./imgs/alfa/cards/1.png",
         "type": "Alfa",
@@ -8,6 +9,7 @@
     },
     {
         "id": "2",
+        "name": "Alfa 4.50$",
         "price": 5.20,
         "image": "./imgs/alfa/cards/2.png",
         "type": "Alfa",
@@ -15,6 +17,7 @@
     },
     {
         "id": "3",
+        "name": "Alfa 7.58$",
         "price": 8.66,
         "image": "./imgs/alfa/cards/3.png",
         "type": "Alfa",
@@ -22,6 +25,7 @@
     },
     {
         "id": "4",
+        "name": "Alfa 15.15$",
         "price": 17.31,
         "image": "./imgs/alfa/cards/4.png",
         "type": "Alfa",
@@ -29,6 +33,7 @@
     },
     {
         "id": "5",
+        "name": "Alfa Month",
         "price": 2.89,
         "image": "./imgs/alfa/days/month.png",
         "type": "Alfa",
@@ -36,6 +41,7 @@
     },
     {
         "id": "6",
+        "name": "Alfa Year",
         "price": 21.92,
         "image": "./imgs/alfa/days/year.png",
         "type": "Alfa",
@@ -43,6 +49,7 @@
     },
     {
         "id": "7",
+        "name": "Alfa Gift 500Mb",
         "price": 3.58,
         "image": "./imgs/alfa/gift/1.png",
         "type": "Alfa",
@@ -50,6 +57,7 @@
     },
     {
         "id": "8",
+        "name": "Alfa Gift 1.5Gb",
         "price": 5.60,
         "image": "./imgs/alfa/gift/2.png",
         "type": "Alfa",
@@ -57,6 +65,7 @@
     },
     {
         "id": "9",
+        "name": "Alfa Gift 5Gb",
         "price": 7.62,
         "image": "./imgs/alfa/gift/3.png",
         "type": "Alfa",
@@ -64,6 +73,7 @@
     },
     {
         "id": "10",
+        "name": "Alfa Gift 10Gb",
         "price": 10.15,
         "image": "./imgs/alfa/gift/4.png",
         "type": "Alfa",
@@ -71,6 +81,7 @@
     },
     {
         "id": "11",
+        "name": "Alfa Gift 20Gb",
         "price": 13.21,
         "image": "./imgs/alfa/gift/5.png",
         "type": "Alfa",
@@ -78,6 +89,7 @@
     },
     {
         "id": "12",
+        "name": "Alfa Gift 30Gb",
         "price": 15.75,
         "image": "./imgs/alfa/gift/6.png",
         "type": "Alfa",
@@ -85,6 +97,7 @@
     },
     {
         "id": "13",
+        "name": "Alfa Gift 40Gb",
         "price": 19.79,
         "image": "./imgs/alfa/gift/7.png",
         "type": "Alfa",
@@ -92,6 +105,7 @@
     },
     {
         "id": "14",
+        "name": "Alfa Weekly 500Mb",
         "price": 1.74,
         "image": "./imgs/alfa/weekly/1.png",
         "type": "Alfa",
@@ -99,6 +113,7 @@
     },
     {
         "id": "15",
+        "name": "Alfa Weekly 1.5Gb",
         "price": 2.43,
         "image": "./imgs/alfa/weekly/2.png",
         "type": "Alfa",
@@ -106,6 +121,7 @@
     },
     {
         "id": "16",
+        "name": "Alfa Weekly 5Gb",
         "price": 5.08,
         "image": "./imgs/alfa/weekly/3.png",
         "type": "Alfa",
@@ -113,6 +129,7 @@
     },
     {
         "id": "17",
+        "name": "Alfa Ushare 5Gb",
         "price": 5.08,
         "image": "./imgs/alfa/ushare/1.png",
         "type": "Alfa",
@@ -120,6 +137,7 @@
     },
     {
         "id": "18",
+        "name": "Alfa Ushare 10Gb",
         "price": 6.23,
         "image": "./imgs/alfa/ushare/2.png",
         "type": "Alfa",
@@ -127,6 +145,7 @@
     },
     {
         "id": "19",
+        "name": "Alfa Ushare 15Gb",
         "price": 7.39,
         "image": "./imgs/alfa/ushare/3.png",
         "type": "Alfa",
@@ -134,6 +153,7 @@
     },
     {
         "id": "20",
+        "name": "Alfa Ushare 20Gb",
         "price": 8.66,
         "image": "./imgs/alfa/ushare/4.png",
         "type": "Alfa",
@@ -141,6 +161,7 @@
     },
     {
         "id": "21",
+        "name": "Alfa Ushare 25Gb",
         "price": 9.58,
         "image": "./imgs/alfa/ushare/5.png",
         "type": "Alfa",
@@ -148,6 +169,7 @@
     },
     {
         "id": "22",
+        "name": "Alfa Ushare 30Gb",
         "price": 10.62,
         "image": "./imgs/alfa/ushare/6.png",
         "type": "Alfa",
@@ -155,6 +177,7 @@
     },
     {
         "id": "23",
+        "name": "Touch 3.79$",
         "price": 4.62,
         "image": "./imgs/touch/cards/1.png",
         "type": "Touch",
@@ -162,6 +185,7 @@
     },
     {
         "id": "24",
+        "name": "Start 4.50$",
         "price": 5.31,
         "image": "./imgs/touch/cards/2.png",
         "type": "Touch",
@@ -169,6 +193,7 @@
     },
     {
         "id": "25",
+        "name": "Touch 4.50$",
         "price": 5.31,
         "image": "./imgs/touch/cards/2_5.png",
         "type": "Touch",
@@ -176,6 +201,7 @@
     },
     {
         "id": "26",
+        "name": "Touch 7.58$",
         "price": 8.77,
         "image": "./imgs/touch/cards/3.png",
         "type": "Touch",
@@ -183,6 +209,7 @@
     },
     {
         "id": "27",
+        "name": "Touch 15.15$",
         "price": 17.54,
         "image": "./imgs/touch/cards/4.png",
         "type": "Touch",
@@ -190,6 +217,7 @@
     },
     {
         "id": "28",
+        "name": "Touch Month",
         "price": 3,
         "image": "./imgs/touch/days/month.png",
         "type": "Touch",
@@ -197,6 +225,7 @@
     },
     {
         "id": "29",
+        "name": "Touch Year",
         "price": 23.30,
         "image": "./imgs/touch/days/year.png",
         "type": "Touch",

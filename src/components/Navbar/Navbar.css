@@ -22,6 +22,12 @@
     }
 }
 
-.offcanvas.offcanvas-end {
-    width: 50vw !important;
+.offcanvas.offcanvas-start {
+    width: 30vw !important;
+}
+
+@media (max-width: 768px) {
+    .offcanvas.offcanvas-start {
+        width: 50vw !important;
+    }
 }

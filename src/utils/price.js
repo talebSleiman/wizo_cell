@@ -24,7 +24,6 @@ const changePriceQtyWithoutLL = (productPrice, quantity) => {
 
 
 const totalPrice = (ls) => {
-    console.log(ls);
     const total = ls.reduce((acc, current) => acc + (changePriceQtyWithoutLL(current.price, current.quantity)), 0);
     return `${total.toLocaleString()}LL`;
 }
