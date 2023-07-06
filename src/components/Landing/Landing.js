@@ -12,7 +12,7 @@ const Landing = () => {
                     <p className='fw-bold'>TOP UP YOUR PHONE INSTANTLY - IT'S THAT SIMPLE!</p>
                     <button>SHOP NOW</button>
                 </div>
-                <div className='figure d-none d-sm-block animated slideInLeft'>
+                <div className='figure mt-3 animated slideInLeft'>
                     <img src='./imgs/hand.png' alt='hand' />
                 </div>
             </div>

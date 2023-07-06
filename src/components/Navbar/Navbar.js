@@ -26,7 +26,10 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
-                            <li className="nav-item dropdown">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#alfa-services">Alfa Services</a>
+                            </li>
+                            {/* <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#alfa-services" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Alfa Services
@@ -38,8 +41,8 @@ const Navbar = () => {
                                     <li><a className="dropdown-item" href="#weekly-data">Weekly Data(7 days)</a></li>
                                     <li><a className="dropdown-item" href="#ushare">Ushare Data</a></li>
                                 </ul>
-                            </li>
-                            <li className="nav-item dropdown">
+                            </li> */}
+                            {/* <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#touch-services" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Touch Services
@@ -48,6 +51,9 @@ const Navbar = () => {
                                     <li><a className="dropdown-item" href="#touch-recharge-cards">Recharge Cards</a></li>
                                     <li><a className="dropdown-item" href="#touch-recharge-days">Recharge Days</a></li>
                                 </ul>
+                            </li> */}
+                            <li className="nav-item">
+                                <a className="nav-link" href="#touch-services">Touch Services</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#offers">Offers</a>

@@ -38,3 +38,10 @@
     width: 331px;
     height: 288px;
 }
+
+@media (max-width: 420px) {
+    .landing .figure img {
+        width: 200px;
+        height: 150px;
+    }
+}

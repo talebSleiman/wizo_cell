@@ -3,19 +3,26 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "../../rtk/slices/cart-slice";
 import { changePrice } from "../../utils/price";
 import Swal from 'sweetalert2'
+import { useNavigate } from "react-router-dom";
 
 const Product = (props) => {
 
     const product = props.product;
     const dispatch = useDispatch();
+    const navigate = useNavigate()
 
     const handleAdd = (product) => {
         dispatch(addToCart({ ...product, quantity: 1 }));
         Swal.fire({
             icon: 'success',
             title: 'Your product has been added to cart',
-            showConfirmButton: false,
-            timer: 1000
+            showCancelButton: true,
+            cancelButtonText: "Add more Product",
+            confirmButtonText: "Order Now",
+        }).then((result)=>{
+            if (result.isConfirmed) {
+                navigate('/cart');
+            }
         })
     }
 

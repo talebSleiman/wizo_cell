@@ -2,7 +2,7 @@ import './Cart.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { clear } from '../../rtk/slices/cart-slice';
 import CartCard from './CartCard';
-import { totalPrice } from '../../utils/price';
+import { totalPrice, changePriceQty } from '../../utils/price';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ const Cart = () => {
     const handleOrder = () => {
         let message = `Hello Wizo, my order is: `;
         cartProducts.forEach(product => {
-            message += `${product.name} x${product.quantity}, `;
+            message += `${product.name} x${product.quantity} Price = ${changePriceQty(product.price, product.quantity)}, `;
         })
         message += ` Total Price: ${totalPrice(cartProducts)}`;
         const url = `https://api.whatsapp.com/send/?phone=96171754138&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
