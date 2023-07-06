@@ -8,3 +8,13 @@ button.mybtn:visited {
     color: #ffffff !important;
     letter-spacing: 2px;
 }
+
+section img {
+    width: 150px;
+}
+
+@media (max-width: 375px) {
+    section img {
+        width: 75px;
+    }
+}

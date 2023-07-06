@@ -34,9 +34,9 @@ const CartCard = (props) => {
                 <p onClick={() => minusCount(product)}><i className="fa-solid fa-minus" style={{ color: "#ffffff" }}></i></p>
             </div>
             <div className="ms-3">
-                <img src={product.image} className='card-image-top' style={{ width: '150px' }} alt='product' />
+                <img src={product.image} className='card-image-top' alt='product' />
             </div>
-            <div className='ms-4 px-md-4'>
+            <div className='ms-3 ms-sm-4 px-md-4'>
                 <h3 className="fw-bold text-white">{product.name}</h3>
                 <h4 className="fw-bold text-white">{changePriceQty(product.price, count)}</h4>
             </div>

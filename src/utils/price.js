@@ -1,4 +1,4 @@
-const sayrafe = 86700;
+const sayrafe = 86100;
 
 const changePrice = (productPrice) => {
     let price = Math.trunc(Math.ceil(sayrafe * productPrice));
