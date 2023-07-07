@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar.js";
 import Landing from "./components/Landing/Landing.js";
 import Up from "./components/Up/Up.js";
-import Footer from "./components/Footer/Footer.js";
+// import Footer from "./components/Footer/Footer.js";
 import Contact from "./components/Contact/Contact.js";
 import Services from "./components/Services/Services.js";
 import Cart from "./components/Cart/Cart.js";

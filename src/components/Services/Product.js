@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../rtk/slices/cart-slice";
 import { changePrice } from "../../utils/price";
